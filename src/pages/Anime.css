@@ -1,0 +1,49 @@
+.anime-page {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.anime-page svg {
+    font-size: 1.5em;
+    color: #F7D354;
+}
+
+.anime-page .anime_card {
+    text-align: center;
+}
+
+.anime-page .anime_card img,
+.anime-page .anime_card h2,
+.anime-page .anime_card p {
+    margin-bottom: 0.5rem;
+}
+
+.anime-page .anime_card p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin-bottom: 2em;
+}
+
+.info-style {
+    margin-bottom: 1.5rem;
+}
+
+.info-style h3 {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.info-description {
+    padding-bottom: 10rem;
+}
+
+.info-description p {
+    line-height: 1.4rem;
+}
